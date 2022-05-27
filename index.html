@@ -1,13 +1,173 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document1</title>
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <link rel="stylesheet" href="./assets/vendor/bootstrap/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
+        integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <title>UI Design</title>
 </head>
+
 <body>
-    <h1>abc</h1>
-    
+    <header>
+        <nav class="navbar navbar-expand-lg">
+            <a class="navbar-brand" href="#"><img src="./assets/images/logo.svg" /></a>
+            <button class="btn btn-info mx-2 d-md-none d-none" id="free">
+                Free Trail
+            </button>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <i class="fa-solid fa-bars text-white"></i>
+            </button>
+            <div class="collapse navbar-collapse " id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item ">
+                        <a class="nav-link" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Features</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Pricing</a>
+                    </li>
+                </ul>
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item d-flex align-items-center">
+                        <img src="./assets/images/earth.svg" alt="earth" class="img-fluid mx-3" id="browse">
+                    </li>
+                    <li class="nav-item">
+                        <button class="btn btn-outline-info mx-2">
+                            Contact
+                        </button>
+                        <button class="btn btn-info mx-2">
+                            Free Trail
+                        </button>
+                    </li>
+
+                </ul>
+            </div>
+        </nav>
+        <div class="m-0 p-0 d-flex align-items-center hero_title  flex-column h-100 ">
+            <div>
+                <h1 class="text-center text-white">
+                    Introducing The Only Tool <br />that You’ll Ever Need
+                </h1>
+            </div>
+            <div>
+                <p class="text-center text-white">
+                    We’ve helped Over 25K+ Individuals and <br />Companies to Grow Their Business Successfully
+                </p>
+            </div>
+            <div>
+                <button class="btn btn-info ">
+                    Start Free Trial
+                </button>
+            </div>
+
+        </div>
+    </header>
+    <div class="task p-0 ">
+        <img src="./assets/images/task.png" class="img-fluid" />
+    </div>
+    <div class="row m-0 product">
+        <div class="col-lg-6 col-md-6 col-sm-12 col-12 mb-4">
+            <h5>
+                PRODUCT
+            </h5>
+            <h1>
+                Great Teams Manage Their Time Effectively And Plan Their Projects Ahead of Time.
+            </h1>
+            <p>
+                We’ve helped Over 25K+ Individuals and <br>Companies to Grow Their Business Successfully
+            </p>
+            <button class="btn btn-outline-info mt-lg-3">
+                Learn More <img src="./assets/images/next.svg" />
+            </button>
+        </div>
+        <div class="col-lg-6 col-md-6 col-sm-12 col-12">
+            <img class="img-fluid" src="./assets/images/Frame.jpg" />
+        </div>
+    </div>
+    <div class="row m-0 feature">
+        <div class="col-md-12  text-center m-0">
+            <h5>
+                FEATURES
+            </h5>
+            <h1>
+                What the Features of Product
+            </h1>
+            <p>
+                Features are highlighted here
+            </p>
+            <button class="btn btn-outline-info mb-4">
+                Learn More <img src="./assets/images/next.svg" />
+            </button>
+        </div>
+        <div class="row justify-content-center m-0 d-flex">
+            <div class="card col-md-3 col-sm-12  m-lg-2 p-lg-4  " >
+                <img class="card-img-top" src="./assets/images/project_manage.svg" alt="Card image cap">
+                <div class="card-body py-2 px-0">
+                  <h5 class="card-title">Project Management</h5>
+                  <p class="card-text text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius pharetra mi. Ut tristique posuere.</p>
+                  <a href="#" class="btn btn-info"> Learn More <img src="./assets/images/next.svg" /></a>
+                </div>
+            </div>
+            <div class="card col-md-3 col-sm-12 m-lg-2 p-lg-4   ">
+                <img class="card-img-top" src="./assets/images/chat.svg" alt="Card image cap">
+                <div class="card-body py-2 px-0">
+                  <h5 class="card-title">Chat</h5>
+                  <p class="card-text text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius pharetra mi. Ut tristique posuere.</p>
+                  <a href="#" class="btn btn-info"> Learn More <img src="./assets/images/next.svg" /></a>
+                </div>
+            </div>
+            <div class="card col-md-3 col-sm-12 m-lg-2 p-lg-4   ">
+                <img class="card-img-top" src="./assets/images/filemanager.svg" alt="Card image cap">
+                <div class="card-body py-2 px-0">
+                  <h5 class="card-title">File Manager</h5>
+                  <p class="card-text text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius pharetra mi. Ut tristique posuere.</p>
+                  <a href="#" class="btn btn-info"> Learn More <img src="./assets/images/next.svg" /></a>
+                </div>
+            </div>
+            <div class="card col-md-3 col-sm-12 m-lg-2 p-lg-4   ">
+                <img class="card-img-top" src="./assets/images/filemanager.svg" alt="Card image cap">
+                <div class="card-body py-2 px-0">
+                  <h5 class="card-title">Call & Video Call</h5>
+                  <p class="card-text text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius pharetra mi. Ut tristique posuere.</p>
+                  <a href="#" class="btn btn-info"> Learn More <img src="./assets/images/next.svg" /></a>
+                </div>
+            </div>
+            <div class="card col-md-3 col-sm-12 m-lg-2 p-lg-4   ">
+                <img class="card-img-top" src="./assets/images/call.svg" alt="Card image cap">
+                <div class="card-body py-2 px-0">
+                  <h5 class="card-title">Mail</h5>
+                  <p class="card-text text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius pharetra mi. Ut tristique posuere.</p>
+                  <a href="#" class="btn btn-info"> Learn More <img src="./assets/images/next.svg" /></a>
+                </div>
+            </div>
+            <div class="card col-md-3 col-sm-12 m-lg-2 p-lg-4   ">
+                <img class="card-img-top" src="./assets/images/mail.svg" alt="Card image cap">
+                <div class="card-body py-2 px-0">
+                  <h5 class="card-title">Event</h5>
+                  <p class="card-text text-muted">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius pharetra mi. Ut tristique posuere.</p>
+                  <a href="#" class="btn btn-info"> Learn More <img src="./assets/images/next.svg" /></a>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+
+    </footer>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
+        integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
+        crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+    <script src="./assets/vendor/bootstrap/js/bootstrap.min.js"></script>
 </body>
+
 </html>

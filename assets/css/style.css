@@ -1,0 +1,186 @@
+header
+{
+    background-image: url("../images/Gradient.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 900px;  
+  
+}
+.navbar{
+    height: 48px;
+    z-index: 999;
+    top: 36px;
+    width: 100%;
+    padding:1rem 2rem !important;
+}
+.nav-link{
+    font-size: 16px;
+    color:#FFFFFF;
+}
+.nav-item #browse{
+    width: 16.67px;
+    height: 26.67px;
+}
+.hero_title{
+    display: flex;
+    transform:translateY(-100px)  !important;
+    justify-content: center !important;
+}
+.hero_title h1{
+    font-size: 55px;
+    font-weight: 600;
+    line-height: 82.5px;
+}
+.hero_title p{
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+}
+.task{
+    width: 100%;
+    height: auto;
+    margin-top:-380px;
+}
+.product{
+   background: #F5F5F5;
+   padding:7rem 7rem !important;
+}
+.product h5{
+    color: #856BFA;
+    font-weight: 800;
+    font-size: 16px; 
+}   
+.product h1{
+    font-size: 40px;
+    width: 90%;
+    font-weight: 600;
+    line-height: 60px;
+}
+.product p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+.feature{
+    background: #EFEBFE;
+    padding:7rem 7rem !important;
+ }
+ .feature h5{
+    color: #856BFA;
+    font-weight: 800;
+    font-size: 16px; 
+}
+ .feature h1{
+    font-size: 40px;
+
+    font-weight: 600;
+    line-height: 60px;
+}
+.feature p{
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+ .card{
+     min-width: 355px !important;
+     border-radius: 16px !important ;
+ }
+ div .card-img-top{
+     width: 48px;
+     height: 48px;
+ }
+ .card .card-title{
+    font-size: 18px;
+    line-height: 24px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+ .card .card-text{
+     font-size: 16px;
+     font-weight: 300;
+     line-height: 21px;
+ }
+@media only screen and (max-width: 900px) {
+}
+@media only screen and (max-width: 768px) {
+}
+@media only screen and (max-width: 600px) {
+}
+@media only screen and (max-width: 400px) {
+header
+{
+    height: 650px;   
+}
+    .navbar{
+        height: 38px;
+        top: 24px;
+        width: 100%;
+      
+    }
+    .hero_title{
+        display: flex;
+        transform:translateY(-60px)  !important;
+    }
+    .hero_title h1{
+        margin-top: 90px;
+        font-size: 40px;
+        font-weight: 600;
+        padding: 15px 24px;
+        line-height: 60px;
+    }
+    .hero_title p{
+        font-size: 14px;
+        padding: 10px 30px;
+        font-weight: 500;
+        line-height: 22px;
+    }
+    .task{
+        margin-top:-90px !important;
+    }
+    .product{ 
+       background: #F5F5F5;
+       padding:1rem 1.5rem !important;
+       margin-bottom: 1rem;
+    }
+    .product h5{
+        color: #856BFA;
+        font-weight: 600;
+        font-size: 16px; 
+        line-height: 16px;
+    }
+    .product h1{
+        font-size: 28px !important;
+        line-height: 44px;
+        font-weight:600;
+    }
+    .product p{
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    .feature{
+        background: #EFEBFE;
+        padding:3rem 0rem !important;
+     }
+
+     .feature h5{
+        color: #856BFA;
+        font-weight: 800;
+        font-size: 16px; 
+    }
+     .feature h1{
+        font-size: 28px;
+        width: 100%;
+        font-weight: 600;
+        line-height: 44px;
+    }
+    .feature p{
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+     .card{  
+       margin:0.5rem 0rem !important;
+       padding: 0.3rem;
+     }
+}
