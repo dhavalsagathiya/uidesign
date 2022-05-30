@@ -1,186 +1,976 @@
-header
-{
+header {
     background-image: url("../images/Gradient.png");
     background-size: cover;
     background-repeat: no-repeat;
-    height: 900px;  
-  
+    height: 900px;
 }
-.navbar{
+
+.navbar {
     height: 48px;
     z-index: 999;
     top: 36px;
     width: 100%;
-    padding:1rem 2rem !important;
+    padding: 1rem 2rem !important;
 }
-.nav-link{
+
+.nav-link {
     font-size: 16px;
-    color:#FFFFFF;
+    color: #FFFFFF;
 }
-.nav-item #browse{
+
+.nav-item #browse {
     width: 16.67px;
     height: 26.67px;
 }
-.hero_title{
+
+.hero_title {
     display: flex;
-    transform:translateY(-100px)  !important;
+    transform: translateY(-100px) !important;
     justify-content: center !important;
 }
-.hero_title h1{
+
+.hero_title h1 {
     font-size: 55px;
     font-weight: 600;
     line-height: 82.5px;
 }
-.hero_title p{
+
+.hero_title p {
     font-size: 18px;
     font-weight: 500;
     line-height: 30px;
 }
-.task{
+.task {
     width: 100%;
     height: auto;
-    margin-top:-380px;
+    margin-top: -380px;
 }
-.product{
-   background: #F5F5F5;
-   padding:7rem 7rem !important;
+
+.product {
+    background: #F5F5F5;
+    padding: 5rem 7rem !important;
 }
-.product h5{
+
+.product h5 {
     color: #856BFA;
     font-weight: 800;
-    font-size: 16px; 
-}   
-.product h1{
+    font-size: 16px;
+}
+
+.product h1 {
     font-size: 40px;
     width: 90%;
     font-weight: 600;
     line-height: 60px;
 }
-.product p{
+
+.product p {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
 }
-.feature{
+.feature {
     background: #EFEBFE;
-    padding:7rem 7rem !important;
- }
- .feature h5{
+    padding: 5rem 7rem !important;
+}
+.feature h5 {
     color: #856BFA;
     font-weight: 800;
-    font-size: 16px; 
+    font-size: 16px;
 }
- .feature h1{
+.feature h1 {
     font-size: 40px;
-
     font-weight: 600;
     line-height: 60px;
 }
-.feature p{
+
+.feature p {
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
 }
- .card{
-     min-width: 355px !important;
-     border-radius: 16px !important ;
- }
- div .card-img-top{
-     width: 48px;
-     height: 48px;
- }
- .card .card-title{
+
+.card {
+    min-width: 355px !important;
+    border-radius: 16px !important;
+}
+
+div .card-img-top {
+    width: 48px;
+    height: 48px;
+}
+
+.card .card-title {
     font-size: 18px;
     line-height: 24px;
     font-weight: 600;
     margin-bottom: 10px;
 }
- .card .card-text{
-     font-size: 16px;
-     font-weight: 300;
-     line-height: 21px;
- }
+
+.card .card-text {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 21px;
+}
+.product_manage {
+    background: #F5F5F5;
+    padding: 5rem 0rem !important;
+}
+.prmanage_title {
+    font-size: 40px;
+    padding-top: 75px;
+    font-weight: 600;
+    line-height: 60px;
+    color: #0A0231;
+}
+
+.product_manage .col-md-5 {
+    padding-left: 7rem;
+}
+
+.product_manage .img-fluid {
+    height: 607px !important;
+    width: 100%;
+}
+.product_manage h5 {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+.product_manage p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.chatbg{
+    background-image: url("../images/chatbg.png");
+    background-repeat: no-repeat;
+    padding: 5rem 0rem !important;
+}
+.chat_title {
+    font-size: 40px;
+    padding-top: 75px;
+    font-weight: 600;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+.chatbg h5 {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+    color: #FFFFFF;
+}
+
+.chatbg p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    color: #FFFFFF;
+}
+.file_manager{
+    background: #EFEBFE;
+    padding: 5rem 0rem !important;
+}
+.file_manager .col-md-5 {
+    padding-left: 7rem;
+}
+
+.file_manager .img-fluid {
+    height: 607px !important;
+    width: 100%;
+}
+.file_manager h5 {
+    font-size: 20px;
+    line-height: 24px;
+    font-weight: 600;
+}
+
+.file_manager p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+}
+.customize h5{
+    font-size: 16px;
+    color:#856BFA;
+    font-weight: 800;
+    line-height: 16px;
+}
+.customize h1{
+    font-size: 40px;
+    font-weight: 400;
+    line-height: 60px;
+}
+.customize p{
+    font-size: 18px;
+    line-height: 30px;
+    font-weight: 400;
+}
+.footer_task {
+    width: 100%;
+    margin-top: -250px;
+}
+/* .carosel{
+    margin-top: 250px;
+} */
+#email_icon {
+    position: absolute;
+    max-width: 85px !important;
+    max-height: 85px;
+    top: -850px;
+    left: 190px;
+    /* overflow: hidden; */
+}
+#star_icon {
+    position: absolute;
+    max-width: 85px !important;
+    top: -600px;
+    left:-8px;
+}
+#list_icon {
+    position: absolute  ;
+    max-width: 85px !important;
+    top: -815px;
+    right:200px !important;
+}
+#msg_icon img {
+    position: absolute  ;
+    max-width: 110px !important;
+    top: -510px;
+    right:40px !important;
+}
+#folder_icon{
+    position: absolute  ;
+    max-width: 85px !important;
+    bottom: 5px;
+    left: 295px !important;
+}
+#call_icon{
+    position: absolute  ;
+    max-width: 85px !important;
+    bottom: -13px;
+    right: 500px !important;
+}
 @media only screen and (max-width: 900px) {
+    header {
+        height: 700px;
+    }
+    .navbar {
+        height: 38px;
+        top: 24px;
+        width: 100%;    
+    }
+    .hero_title {
+        display: flex;
+        transform: translateY(-60px) !important;
+    }
+    .hero_title h1 {
+        margin-top: 55px;
+        font-size: 40px;
+        font-weight: 600;
+        padding: 15px 24px;
+        line-height: 60px;
+    }
+    .hero_title p {
+        font-size: 14px;
+        padding: 10px 30px;
+        font-weight: 500;
+        line-height: 22px;
+    }
+    .task {
+        margin-top: -200px !important;
+    }
+    .product {
+        background: #F5F5F5;
+        padding: 1rem 1.5rem !important;
+        margin-bottom: 1rem;
+    }
+    .product h5 {
+        color: #856BFA;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .product h1 {
+        font-size: 28px !important;
+        line-height: 44px;
+        font-weight: 600;
+    }
+    .product p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    .feature {
+        background: #EFEBFE;
+        padding: 3rem 0rem !important;
+    }
+    .feature h5 {
+        color: #856BFA;
+        font-weight: 800;
+        font-size: 16px;
+    }
+    .feature h1 {
+        font-size: 28px;
+        width: 100%;
+        font-weight: 600;
+        line-height: 44px;
+    }
+    .feature p {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    .card {
+        margin: 0.5rem 0rem !important;
+        padding: 0.3rem;
+    }
+    .product_manage {
+        background: #F5F5F5;
+        padding: 3rem 0rem !important;
+    }
+    .prmanage_title {
+        font-size: 28px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-weight: 600;
+        line-height: 44px;
+        color: #0A0231;
+    }
+    .product_manage .col-md-5 {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .prmanageIcon {
+        height: 56px;
+        width: 56px;
+    }
+    .product_manage .img-fluid {
+        height: 250px !important;
+        width: 100%;
+    }
+    .product_manage h5 {
+        font-size: 18px;
+        line-height: 21px;
+        font-weight: 600;
+    }
+    .product_manage p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    .chatbg{
+        background-size: cover;
+        padding: 3rem 0rem !important;
+    }
+    .chat_title {
+        font-size: 28px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-weight: 600;
+        line-height: 44px;
+        color:#F5F5F5;
+    }
+    .chatbg h5 {
+        font-size: 18px;
+        line-height: 21px;
+        font-weight: 600;
+    }
+    .chatbg p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    #chatData{order: 1 !important;  }
+    #chatImg{order: 2;}
+    .file_manager {
+        background: #EFEBFE;
+        padding: 3rem 0rem !important;
+    }
+    .file_manager .col-md-5 {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .file_manager .img-fluid {
+        height: 400px !important;
+        width: 100%;
+    }
+    .file_manager h5 {
+        font-size: 18px;
+        line-height: 21px;
+        font-weight: 600;
+    }
+    .file_manager p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    .customize{
+        padding: 0 2rem !important  ;
+    }
+    .customize h5{
+        font-size: 16px;
+        color:#856BFA;
+        font-weight: 800;
+        line-height: 16px;
+    }
+    .customize h1{
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 44px;
+    }
+    .customize p{
+        font-size: 16px;
+        line-height: 30px;
+        font-weight: 400;
+    }
+    #vcImg{order: 2 !important;  }
+    #vcData{order: 1;}
 }
 @media only screen and (max-width: 768px) {
+    header {
+        height: 700px;
+    }
+    .navbar {
+        height: 38px;
+        top: 24px;
+        width: 100%;    
+    }
+    .hero_title {
+        display: flex;
+        transform: translateY(-60px) !important;
+    }
+    .hero_title h1 {
+        margin-top: 55px;
+        font-size: 40px;
+        font-weight: 600;
+        padding: 15px 24px;
+        line-height: 60px;
+    }
+    .hero_title p {
+        font-size: 14px;
+        padding: 10px 30px;
+        font-weight: 500;
+        line-height: 22px;
+    }
+    .task {
+        margin-top: -180px !important;
+    }
+    .product {
+        background: #F5F5F5;
+        padding: 1rem 1.5rem !important;
+        margin-bottom: 1rem;
+    }
+    .product h5 {
+        color: #856BFA;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .product h1 {
+        font-size: 28px !important;
+        line-height: 44px;
+        font-weight: 600;
+    }
+    .product p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    .feature {
+        background: #EFEBFE;
+        padding: 3rem 0rem !important;
+    }
+    .feature h5 {
+        color: #856BFA;
+        font-weight: 800;
+        font-size: 16px;
+    }
+    .feature h1 {
+        font-size: 28px;
+        width: 100%;
+        font-weight: 600;
+        line-height: 44px;
+    }
+    .feature p {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    .card {
+        margin: 0.5rem 0rem !important;
+        padding: 0.3rem;
+    }
+    .product_manage {
+        background: #F5F5F5;
+        padding: 3rem 0rem !important;
+    }
+    .prmanage_title {
+        font-size: 28px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-weight: 600;
+        line-height: 44px;
+        color: #0A0231;
+    }
+    .product_manage .col-md-5 {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .prmanageIcon {
+        height: 56px;
+        width: 56px;
+    }
+    .product_manage .img-fluid {
+        height: 250px !important;
+        width: 100%;
+    }
+    .product_manage h5 {
+        font-size: 18px;
+        line-height: 21px;
+        font-weight: 600;
+    }
+    .product_manage p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    .chatbg{
+        background-size: cover;
+        padding: 3rem 0rem !important;
+    }
+    .chat_title {
+        font-size: 28px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-weight: 600;
+        line-height: 44px;
+        color:#F5F5F5;
+    }
+    .chatbg h5 {
+        font-size: 18px;
+        line-height: 21px;
+        font-weight: 600;
+    }
+    .chatbg p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    #chatData{order: 1 !important;  }
+    #chatImg{
+        order: 2;
+        padding-top: 15px;
+    }
+    .file_manager {
+        background: #EFEBFE;
+        padding: 3rem 0rem !important;
+    }
+    .file_manager .col-md-5 {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .file_manager .img-fluid {
+        padding-top: 15px;
+        height: 250px !important;
+        width: 100%;
+    }
+    .file_manager h5 {
+        font-size: 18px;
+        line-height: 21px;
+        font-weight: 600;
+    }
+    .file_manager p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    .customize{
+        padding: 0 2rem !important  ;
+    }
+    .customize h5{
+        font-size: 16px;
+        color:#856BFA;
+        font-weight: 800;
+        line-height: 16px;
+    }
+    .customize h1{
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 44px;
+    }
+    .customize p{
+        font-size: 16px;
+        line-height: 30px;
+        font-weight: 400;
+    }
+    #vcImg{order: 2 !important;  }
+    #vcData{order: 1;}
 }
 @media only screen and (max-width: 600px) {
+    header {
+        height: 650px;
+    }
+    .navbar {
+        height: 38px;
+        top: 24px;
+        width: 100%;    
+    }
+    .hero_title {
+        display: flex;
+        transform: translateY(-60px) !important;
+    }
+    .hero_title h1 {
+        margin-top: 75px;
+        font-size: 40px;
+        font-weight: 600;
+        padding: 15px 24px;
+        line-height: 60px;
+    }
+    .hero_title p {
+        font-size: 14px;
+        padding: 10px 30px;
+        font-weight: 500;
+        line-height: 22px;
+    }
+    .task {
+        margin-top: -110px !important;
+    }
+    .product {
+        background: #F5F5F5;
+        padding: 1rem 1.5rem !important;
+        margin-bottom: 1rem;
+    }
+    .product h5 {
+        color: #856BFA;
+        font-weight: 600;
+        font-size: 16px;
+        line-height: 16px;
+    }
+    .product h1 {
+        font-size: 28px !important;
+        line-height: 44px;
+        font-weight: 600;
+    }
+    .product p {
+        font-size: 16px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    .feature {
+        background: #EFEBFE;
+        padding: 3rem 0rem !important;
+    }
+    .feature h5 {
+        color: #856BFA;
+        font-weight: 800;
+        font-size: 16px;
+    }
+    .feature h1 {
+        font-size: 28px;
+        width: 100%;
+        font-weight: 600;
+        line-height: 44px;
+    }
+    .feature p {
+        font-size: 18px;
+        font-weight: 400;
+        line-height: 30px;
+    }
+    .card {
+        margin: 0.5rem 0rem !important;
+        padding: 0.3rem;
+    }
+    .product_manage {
+        background: #F5F5F5;
+        padding: 3rem 0rem !important;
+    }
+    .prmanage_title {
+        font-size: 28px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-weight: 600;
+        line-height: 44px;
+        color: #0A0231;
+    }
+    .product_manage .col-md-5 {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .prmanageIcon {
+        height: 56px;
+        width: 56px;
+    }
+    .product_manage .img-fluid {
+        padding-top: 15px;
+        height: 250px !important;
+        width: 100%;
+    }
+    .product_manage h5 {
+        font-size: 18px;
+        line-height: 21px;
+        font-weight: 600;
+    }
+    .product_manage p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    .chatbg{
+        background-size: cover;
+        padding: 3rem 0rem !important;
+    }
+    .chat_title {
+        font-size: 28px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-weight: 600;
+        line-height: 44px;
+        color:#F5F5F5;
+    }
+    .chatbg h5 {
+        font-size: 18px;
+        line-height: 21px;
+        font-weight: 600;
+    }
+    .chatbg p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    #chatData{order: 1 !important;  }
+    #chatImg{order: 2;}
+    .file_manager {
+        background: #EFEBFE;
+        padding: 3rem 0rem !important;
+    }
+    .file_manager .col-md-5 {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .file_manager .img-fluid {
+        height: 250px !important;
+        width: 100%;
+    }
+    .file_manager h5 {
+        font-size: 18px;
+        line-height: 21px;
+        font-weight: 600;
+    }
+    .file_manager p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    .customize{
+        padding: 0 2rem !important  ;
+    }
+    .customize h5{
+        font-size: 16px;
+        color:#856BFA;
+        font-weight: 800;
+        line-height: 16px;
+    }
+    .customize h1{
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 44px;
+    }
+    .customize p{
+        font-size: 16px;
+        line-height: 30px;
+        font-weight: 400;
+    }
+    #vcImg{order: 2 !important;  }
+    #vcData{order: 1;}
 }
 @media only screen and (max-width: 400px) {
-header
-{
-    height: 650px;   
-}
-    .navbar{
+    header {
+        height: 650px;
+    }
+
+    .navbar {
         height: 38px;
         top: 24px;
         width: 100%;
-      
+
     }
-    .hero_title{
+
+    .hero_title {
         display: flex;
-        transform:translateY(-60px)  !important;
+        transform: translateY(-60px) !important;
     }
-    .hero_title h1{
+
+    .hero_title h1 {
         margin-top: 90px;
         font-size: 40px;
         font-weight: 600;
         padding: 15px 24px;
         line-height: 60px;
     }
-    .hero_title p{
+
+    .hero_title p {
         font-size: 14px;
         padding: 10px 30px;
         font-weight: 500;
         line-height: 22px;
     }
-    .task{
-        margin-top:-90px !important;
+    .task {
+        margin-top: -90px !important;
     }
-    .product{ 
-       background: #F5F5F5;
-       padding:1rem 1.5rem !important;
-       margin-bottom: 1rem;
+    .product {
+        background: #F5F5F5;
+        padding: 1rem 1.5rem !important;
+        margin-bottom: 1rem;
     }
-    .product h5{
+    .product h5 {
         color: #856BFA;
         font-weight: 600;
-        font-size: 16px; 
+        font-size: 16px;
         line-height: 16px;
     }
-    .product h1{
+    .product h1 {
         font-size: 28px !important;
         line-height: 44px;
-        font-weight:600;
+        font-weight: 600;
     }
-    .product p{
+    .product p {
         font-size: 16px;
         font-weight: 400;
         line-height: 30px;
     }
-    .feature{
+    .feature {
         background: #EFEBFE;
-        padding:3rem 0rem !important;
-     }
-
-     .feature h5{
+        padding: 3rem 0rem !important;
+    }
+    .feature h5 {
         color: #856BFA;
         font-weight: 800;
-        font-size: 16px; 
+        font-size: 16px;
     }
-     .feature h1{
+    .feature h1 {
         font-size: 28px;
         width: 100%;
         font-weight: 600;
         line-height: 44px;
     }
-    .feature p{
+    .feature p {
         font-size: 18px;
         font-weight: 400;
         line-height: 30px;
     }
-     .card{  
-       margin:0.5rem 0rem !important;
-       padding: 0.3rem;
-     }
+    .card {
+        margin: 0.5rem 0rem !important;
+        padding: 0.3rem;
+    }
+    .product_manage {
+        background: #F5F5F5;
+        padding: 3rem 0rem !important;
+    }
+    .prmanage_title {
+        font-size: 28px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-weight: 600;
+        line-height: 44px;
+        color: #0A0231;
+    }
+    .product_manage .col-md-5 {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .prmanageIcon {
+        height: 56px;
+        width: 56px;
+    }
+    .product_manage .img-fluid {
+        height: 250px !important;
+        width: 100%;
+    }
+    .product_manage h5 {
+        font-size: 18px;
+        line-height: 21px;
+        font-weight: 600;
+    }
+    .product_manage p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    .chatbg{
+        background-size: cover;
+        padding: 3rem 0rem !important;
+    }
+    .chat_title {
+        font-size: 28px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-weight: 600;
+        line-height: 44px;
+        color:#F5F5F5;
+    }
+    .chatbg h5 {
+        font-size: 18px;
+        line-height: 21px;
+        font-weight: 600;
+    }
+    .chatbg p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    #chatData{order: 1 !important;  }
+    #chatImg{order: 2;}
+    .file_manager {
+        background: #EFEBFE;
+        padding: 3rem 0rem !important;
+    }
+    .file_manager .col-md-5 {
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
+    .file_manager .img-fluid {
+        height: 250px !important;
+        width: 100%;
+    }
+    .file_manager h5 {
+        font-size: 18px;
+        line-height: 21px;
+        font-weight: 600;
+    }
+    .file_manager p {
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 24px;
+    }
+    .customize{
+        padding: 0 2rem !important  ;
+    }
+    .customize h5{
+        font-size: 16px;
+        color:#856BFA;
+        font-weight: 800;
+        line-height: 16px;
+    }
+    .customize h1{
+        font-size: 28px;
+        font-weight: 600;
+        line-height: 44px;
+    }
+    .customize p{
+        font-size: 16px;
+        line-height: 30px;
+        font-weight: 400;
+    }
+    #vcImg{order: 2 !important;  }
+    #vcData{order: 1;}
 }
