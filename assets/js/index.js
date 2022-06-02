@@ -1,5 +1,6 @@
-$(document).ready(function() {
-    $('.card-header button').click(function() {
+$(document).ready(function () {
+
+    $('.card-header button').click(function () {
         $('.card').addClass('otherClasses');
         $('.btn').addClass('other');
         $(this).closest('.otherClasses').removeClass("otherClasses");
@@ -8,7 +9,18 @@ $(document).ready(function() {
         $('.other').removeClass('arrowDown')
         $(this).closest('.card').toggleClass("bg");
         $(this).closest('.btn').toggleClass("arrowDown");
-    });  
+    });
+    $('.navbar-toggler').click(function () {
+        /* $('.hero_title').addClass('d-none');
+        $('.hero_title').removeClass('d-flex') */
+        $('.hero_title').toggleClass('d-flex')
+        $('.hero_title').toggleClass("d-none");
+    });
+    var elem = document.querySelector('.js-switch');
+    var init = new Switchery(elem);
 
+    
+
+   
 });
 
