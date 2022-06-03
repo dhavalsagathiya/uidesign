@@ -1,21 +1,35 @@
+@font-face {
+    font-family: "Poppins";
+    src: url("../fonts/Poppins/Poppins-Light.ttf");
+}
+
+body {
+    font-family: "Poppins" !important;
+}
+
 header {
     background-image: url("../images/Gradient.png");
     background-size: cover;
     background-repeat: no-repeat;
     height: auto;
 }
-ul li::marker{
- margin-top: 20px !important;
+
+ul li::marker {
+    margin-top: 20px !important;
 }
+
 header #index {
     height: 900px;
 }
+
 header #helpcenter {
     height: 500px;
 }
+
 header #free_trial {
-    height:900px;
+    height: auto;
 }
+
 .navbar {
     height: 48px;
     z-index: 999;
@@ -23,19 +37,27 @@ header #free_trial {
     width: 100%;
     padding: 1rem 4rem !important;
 }
+
 .nav-link {
     font-size: 16px;
     color: #FFFFFF;
 }
+
 .nav-item #browse {
     width: 26.67px;
     height: 26.67px;
 }
+
 header #free_trial .hero_title {
     display: flex;
-    transform: translateY(-20px) !important;
+    transform: translateY(0px) !important;
     justify-content: center !important;
 }
+
+.trail {
+    padding: 6rem 2rem !important;
+}
+
 .hero_title {
     display: flex;
     transform: translateY(-100px) !important;
@@ -61,7 +83,7 @@ header #free_trial .hero_title {
 }
 
 .product {
-    background:#FFFFFF;
+    background: #FFFFFF;
     padding: 5rem 7rem !important;
 }
 
@@ -88,13 +110,15 @@ header #free_trial .hero_title {
     background: #EFEBFE;
     padding: 5rem 7rem !important;
 }
+
 .feature h5 {
     color: #856BFA;
     font-weight: 800;
     font-size: 16px;
 }
+
 .feature .card h5 {
-    color:#0A0231;
+    color: #0A0231;
     font-weight: 800;
     font-size: 16px;
 }
@@ -139,13 +163,15 @@ header #free_trial .hero_title {
     background: #F5F5F5;
     padding: 2.5rem 0rem 0rem 0rem !important;
 }
-.chaticon{
+
+.chaticon {
     background-color: #856BFA;
     height: 96px;
-    width: 96px;  
+    width: 96px;
     border-radius: 16px;
     padding: 30px;
 }
+
 .prmanage_title {
     font-size: 40px;
     padding-top: 75px;
@@ -159,7 +185,7 @@ header #free_trial .hero_title {
 }
 
 .product_manage .img-fluid {
-    white-space:pre-wrap;
+    white-space: pre-wrap;
     width: 100%;
 }
 
@@ -249,10 +275,12 @@ header #free_trial .hero_title {
     font-weight: 400;
     line-height: 28px;
 }
-#customize{
+
+#customize {
     padding-top: 2rem;
     padding-bottom: 8rem;
 }
+
 .customize h5 {
     font-size: 16px;
     color: #856BFA;
@@ -446,9 +474,11 @@ footer p {
     line-height: 30px;
     font-weight: 400;
 }
+
 .footer_icon a {
     margin: 5px 10px;
 }
+
 .btn-info {
     background: linear-gradient(135deg, #866CF9 0%, #9884F5 100%);
     font-size: 16px;
@@ -457,6 +487,7 @@ footer p {
     border-radius: 5px;
     border: 0 !important;
 }
+
 .btn-outline-info {
     border: 1px solid #FFFFFF !important;
     border-radius: 5px;
@@ -586,6 +617,7 @@ footer p {
 .arrowDown {
     transform: rotate(90deg);
 }
+
 .divblur {
     height: 200px;
     width: 200px;
@@ -596,10 +628,11 @@ footer p {
     border-radius: 90%;
     z-index: -10;
     transform: rotate(45deg);
-    background-color: #dcb4fd ;
-    background-image: linear-gradient(315deg, #dcb4fd  50%, #9c3bf7 90%);
+    background-color: #dcb4fd;
+    background-image: linear-gradient(315deg, #dcb4fd 50%, #9c3bf7 90%);
     filter: blur(70px);
-}  
+}
+
 .divblur1 {
     height: 200px;
     width: 200px;
@@ -610,25 +643,42 @@ footer p {
     border-radius: 90%;
     z-index: -10;
     transform: rotate(45deg);
-    background-color: #dcb4fd ;
-    background-image: linear-gradient(315deg, #dcb4fd  50%, #9c3bf7 90%);
+    background-color: #dcb4fd;
+    background-image: linear-gradient(315deg, #dcb4fd 50%, #9c3bf7 90%);
     filter: blur(70px);
-}                                          /* free trail */
+}
+
+/* free trail */
 .card-body ul li {
     position: relative;
+    line-height: 25px;
+    padding-top: 0.3rem;
     list-style-type: none;
 }
+
 .card-body ul li:before {
     content: "";
     position: absolute;
-    top: 0px;
-    left:-35px; 
+    top: 8px;
+    left: -40px;
     width: 20px;
     height: 20px;
     background-image: url("../images/tic.png");
     background-repeat: no-repeat;
 }
-.help_divblur{
+
+.card2 ul li:before {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: -40px;
+    width: 20px;
+    height: 20px;
+    background-image: url("../images/123.png");
+    background-repeat: no-repeat;
+}
+
+.help_divblur {
     height: 200px;
     width: 200px;
     opacity: 0.6;
@@ -638,11 +688,12 @@ footer p {
     z-index: -10;
     border-radius: 90%;
     transform: rotate(45deg);
-    background-color: #dcb4fd ;
+    background-color: #dcb4fd;
     background-image: linear-gradient(315deg, #dcb4fd 65%, #9c3bf7 90%);
- filter: blur(80px);
+    filter: blur(80px);
 }
-.help_divblur1{
+
+.help_divblur1 {
     height: 200px;
     width: 200px;
     opacity: 0.6;
@@ -652,26 +703,28 @@ footer p {
     z-index: -10;
     border-radius: 90%;
     transform: rotate(45deg);
-    background-color: #dcb4fd ;
+    background-color: #dcb4fd;
     background-image: linear-gradient(315deg, #72bff1 65%, #b681e7 90%);
- filter: blur(80px);
+    filter: blur(80px);
 }
-.help_divblur2{
+
+.help_divblur2 {
     height: 150px;
     width: 150px;
     opacity: 0.6;
     position: absolute;
     margin-top: 470px;
-    right: 0px; 
+    right: 0px;
     transform: translateX(-50px);
     z-index: -10;
     border-radius: 90%;
     transform: rotate(0deg);
-    background-color: #dcb4fd ;
+    background-color: #dcb4fd;
     background-image: linear-gradient(315deg, #dcb4fd 65%, #9c3bf7 90%);
- filter: blur(80px);
+    filter: blur(80px);
 }
-.help_divblur3{
+
+.help_divblur3 {
     height: 150px;
     width: 150px;
     opacity: 0.7;
@@ -682,19 +735,95 @@ footer p {
     z-index: -10;
     border-radius: 90%;
     transform: rotate(0deg);
-    background-color: #dcb4fd ;
+    background-color: #dcb4fd;
     background-image: linear-gradient(315deg, #72bff1 65%, #b681e7 90%);
- filter: blur(80px);
-} 
+    filter: blur(80px);
+}
+
+.free-trail {
+    /* padding: 1rem 1rem; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.card2 {
+    background: #856BFA !important;
+    color: white;
+}
+
+.badge {
+    content: " ";
+    position: absolute;
+    top: -18px;
+    padding: 0.5rem 1.5rem !important;
+    left: 22%;
+    border-radius: 15px !important;
+}
+
+.free-trail h6 {
+    font-size: 20px;
+    line-height: 30px;
+    font-weight: 600;
+}
+
+.free-trail h5 {
+    font-size: 29px;
+    line-height: 43px;
+    font-weight: 400;
+}
+
+.free-trail p {
+    font-size: 14px;
+    line-height: 24px;
+    font-weight: normal;
+}
+
+.free-trail .card {
+    padding: 1rem 1.5rem;
+    margin: 1rem 0.5rem !important;
+    max-width: 280px !important;
+    min-width: 280px !important;
+}
+
+.custom-checkbox .custom-control-input:checked~.custom-control-label::before {
+    background-color: #866CF9;
+    border: 1px solid #856BFA !important;
+}
+.form_data {
+    border: 1px solid #CCCCCC !important;
+    padding: 3rem !important;
+    border-radius: 30px;
+    background: #FFFFFF;
+}
+.form_data h1 {
+color: #1F1F1F !important;
+font-size: 24px;
+line-height: 36px;
+font-weight: 600;
+}
+.form_data h5 {
+    color: #1F1F1F !important;
+    font-size: 16px;
+    line-height: 24px;
+    font-weight: 300;
+}
+.form_data p {
+    color: #1F1F1F !important;
+    font-size: 20px;
+    line-height:30px;
+    font-weight: 400;
+}
 @media only screen and (max-width: 900px) {
-    
+
     header #index {
         height: 700px;
     }
+
     header #free_trial {
-        height: 800px;
+        height: auto;
     }
-    
+
     header #helpcenter {
         height: 450px;
     }
@@ -705,9 +834,18 @@ footer p {
         width: 100%;
         padding: 1rem 3.5rem !important;
     }
-    .navbar-nav
-    {
+
+    .navbar-nav {
         margin-top: 3rem !important;
+    }
+
+    .navbar-brand img {
+        height: 35px;
+        width: auto;
+    }
+
+    .trail {
+        padding: 6rem 2rem !important;
     }
 
     .hero_title {
@@ -808,17 +946,19 @@ footer p {
         padding-right: 1rem;
     }
 
-    .prmanageIcon {  
+    .prmanageIcon {
         height: 56px;
         width: 56px;
     }
-    .chaticon{
+
+    .chaticon {
         background-color: #856BFA;
         height: 56px;
-        width: 56px;  
+        width: 56px;
         border-radius: 12px;
         padding: 18px;
     }
+
     .product_manage .img-fluid {
         height: 400px !important;
         width: 100%;
@@ -933,10 +1073,11 @@ footer p {
         line-height: 30px;
         font-weight: 400;
     }
+
     #customize {
         order: 3;
         padding-top: 2rem !important;
-        padding-bottom: 5rem !important  ;
+        padding-bottom: 5rem !important;
     }
 
     /* 600 carousel */
@@ -1173,6 +1314,7 @@ footer p {
     .help {
         padding: 2rem 2rem !important;
     }
+
     .faq {
         padding: 2.5rem 3rem !important;
     }
@@ -1194,6 +1336,7 @@ footer p {
         font-weight: 300;
         line-height: 21px;
     }
+
     .divblur {
         height: 150px;
         width: 150px;
@@ -1203,10 +1346,11 @@ footer p {
         right: 30px;
         border-radius: 90%;
         transform: rotate(45deg);
-        background-color: #dcb4fd ;
-        background-image: linear-gradient(315deg, #dcb4fd  50%, #9c3bf7 90%);
+        background-color: #dcb4fd;
+        background-image: linear-gradient(315deg, #dcb4fd 50%, #9c3bf7 90%);
         filter: blur(70px);
-    }  
+    }
+
     .divblur1 {
         height: 150px;
         width: 150px;
@@ -1216,11 +1360,12 @@ footer p {
         left: 50px;
         border-radius: 90%;
         transform: rotate(45deg);
-        background-color: #dcb4fd ;
-        background-image: linear-gradient(315deg, #dcb4fd  50%, #9c3bf7 90%);
+        background-color: #dcb4fd;
+        background-image: linear-gradient(315deg, #dcb4fd 50%, #9c3bf7 90%);
         filter: blur(70px);
-    } 
-    .help_divblur{
+    }
+
+    .help_divblur {
         height: 120px;
         width: 120px;
         opacity: 0.7;
@@ -1230,40 +1375,43 @@ footer p {
         z-index: -10;
         border-radius: 90%;
         transform: rotate(45deg);
-        background-color: #dcb4fd ;
+        background-color: #dcb4fd;
         background-image: linear-gradient(315deg, #dcb4fd 65%, #9c3bf7 90%);
-     filter: blur(50px);
+        filter: blur(50px);
     }
-    .help_divblur1{
+
+    .help_divblur1 {
         height: 120px;
         width: 120px;
         opacity: 0.6;
         position: absolute;
         margin-top: -50px;
         left: -70px;
-         z-index: -10;
+        z-index: -10;
         border-radius: 90%;
         transform: rotate(45deg);
-        background-color: #dcb4fd ;
+        background-color: #dcb4fd;
         background-image: linear-gradient(315deg, #72bff1 65%, #b681e7 90%);
-     filter: blur(50px);
+        filter: blur(50px);
     }
-    .help_divblur2{
+
+    .help_divblur2 {
         height: 140px;
         width: 140px;
         opacity: 0.7;
         position: absolute;
         margin-top: 510px;
-        right: 0px; 
+        right: 0px;
         transform: translateX(-50px);
         z-index: -10;
         border-radius: 90%;
         transform: rotate(0deg);
-        background-color: #dcb4fd ;
+        background-color: #dcb4fd;
         background-image: linear-gradient(315deg, #dcb4fd 65%, #9c3bf7 90%);
-     filter: blur(50px);
+        filter: blur(50px);
     }
-    .help_divblur3{
+
+    .help_divblur3 {
         height: 140px;
         width: 140px;
         opacity: 0.6;
@@ -1274,28 +1422,80 @@ footer p {
         z-index: -10;
         border-radius: 90%;
         transform: rotate(0deg);
-        background-color: #dcb4fd ;
+        background-color: #dcb4fd;
         background-image: linear-gradient(315deg, #72bff1 65%, #b681e7 90%);
-     filter: blur(50px);
-    } 
+        filter: blur(50px);
+    }
+
+    .badge {
+        content: " ";
+        position: absolute;
+        top: -18px;
+        padding: 0.5rem 1.5rem !important;
+        left: 22%;
+        border-radius: 15px !important;
+    }
+
+    .free-trail h6 {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 600;
+    }
+
+    .free-trail h5 {
+        font-size: 29px;
+        line-height: 43px;
+        font-weight: 400;
+    }
+
+    .free-trail p {
+        font-size: 14px;
+        line-height: 24px;
+        font-weight: normal;
+    }
+
+    .free-trail .card {
+        padding: 1rem 1.5rem;
+        margin: 1rem 0.5rem !important;
+        max-width: 280px !important;
+        min-width: 280px !important;
+    }
+    .form_data {
+        border: 1px solid #CCCCCC !important;
+        padding: 2.5rem !important;
+        border-radius: 30px;
+        background: #FFFFFF;
+    }
+
 }
 
 @media only screen and (max-width: 768px) {
     header #index {
         height: 700px;
     }
+
     header #free_trial {
-        height: 800px;
+        height: auto;
     }
+
     header #helpcenter {
         height: 450px;
     }
-    
+
     .navbar {
         height: 38px;
         top: 24px;
         width: 100%;
         padding: 1rem 3rem !important;
+    }
+
+    .navbar-brand img {
+        height: 35px;
+        width: auto;
+    }
+
+    .trail {
+        padding: 5rem 2rem !important;
     }
 
     .hero_title {
@@ -1400,13 +1600,15 @@ footer p {
         height: 56px;
         width: 56px;
     }
-    .chaticon{
+
+    .chaticon {
         background-color: #856BFA;
         height: 56px;
-        width: 56px;  
+        width: 56px;
         border-radius: 12px;
         padding: 18px;
     }
+
     .product_manage .img-fluid {
         height: 250px !important;
         width: 100%;
@@ -1525,8 +1727,8 @@ footer p {
 
     #customize {
         order: 3;
-        padding-top: 2rem !important; 
-        padding-bottom: 5rem !important  ;
+        padding-top: 2rem !important;
+        padding-bottom: 5rem !important;
     }
 
     /* 600 carousel */
@@ -1778,8 +1980,14 @@ footer p {
     .faq p {
         font-size: 14px;
         font-weight: 300;
+
         line-height: 21px;
     }
+
+    .free-trail {
+        padding: 2rem 1rem !important;
+    }
+
     .divblur {
         height: 150px;
         width: 150px;
@@ -1789,10 +1997,11 @@ footer p {
         right: 20px;
         border-radius: 90%;
         transform: rotate(45deg);
-        background-color: #dcb4fd ;
-        background-image: linear-gradient(315deg, #dcb4fd  50%, #9c3bf7 90%);
+        background-color: #dcb4fd;
+        background-image: linear-gradient(315deg, #dcb4fd 50%, #9c3bf7 90%);
         filter: blur(70px);
-    }  
+    }
+
     .divblur1 {
         height: 150px;
         width: 150px;
@@ -1802,11 +2011,12 @@ footer p {
         left: 40px;
         border-radius: 90%;
         transform: rotate(45deg);
-        background-color: #dcb4fd ;
-        background-image: linear-gradient(315deg, #dcb4fd  50%, #9c3bf7 90%);
+        background-color: #dcb4fd;
+        background-image: linear-gradient(315deg, #dcb4fd 50%, #9c3bf7 90%);
         filter: blur(50px);
-    } 
-    .help_divblur{
+    }
+
+    .help_divblur {
         height: 120px;
         width: 120px;
         opacity: 0.7;
@@ -1816,40 +2026,43 @@ footer p {
         z-index: -10;
         border-radius: 90%;
         transform: rotate(45deg);
-        background-color: #dcb4fd ;
+        background-color: #dcb4fd;
         background-image: linear-gradient(315deg, #dcb4fd 65%, #9c3bf7 90%);
-     filter: blur(50px);
+        filter: blur(50px);
     }
-    .help_divblur1{
+
+    .help_divblur1 {
         height: 120px;
         width: 120px;
         opacity: 0.6;
         position: absolute;
         margin-top: -50px;
         left: -70px;
-         z-index: -10;
+        z-index: -10;
         border-radius: 90%;
         transform: rotate(45deg);
-        background-color: #dcb4fd ;
+        background-color: #dcb4fd;
         background-image: linear-gradient(315deg, #72bff1 65%, #b681e7 90%);
-     filter: blur(50px);
+        filter: blur(50px);
     }
-    .help_divblur2{
+
+    .help_divblur2 {
         height: 120px;
         width: 120px;
         opacity: 0.7;
         position: absolute;
         margin-top: 580px;
-        right: 0px; 
+        right: 0px;
         transform: translateX(-50px);
         z-index: -10;
         border-radius: 90%;
         transform: rotate(0deg);
-        background-color: #dcb4fd ;
+        background-color: #dcb4fd;
         background-image: linear-gradient(315deg, #dcb4fd 65%, #9c3bf7 90%);
-     filter: blur(50px);
+        filter: blur(50px);
     }
-    .help_divblur3{
+
+    .help_divblur3 {
         height: 120px;
         width: 120px;
         opacity: 0.6;
@@ -1860,29 +2073,82 @@ footer p {
         z-index: -10;
         border-radius: 90%;
         transform: rotate(0deg);
-        background-color: #dcb4fd ;
+        background-color: #dcb4fd;
         background-image: linear-gradient(315deg, #72bff1 65%, #b681e7 90%);
-     filter: blur(50px);
-    } 
+        filter: blur(50px);
+    }
+
+    .badge {
+        content: " ";
+        position: absolute;
+        top: -18px;
+        padding: 0.5rem 1.5rem !important;
+        left: 22%;
+        border-radius: 15px !important;
+    }
+
+    .free-trail h6 {
+        font-size: 20px;
+        line-height: 30px;
+        font-weight: 600;
+    }
+
+    .free-trail h5 {
+        font-size: 29px;
+        line-height: 43px;
+        font-weight: 400;
+    }
+
+    .free-trail p {
+        font-size: 16px;
+        line-height: 24px;
+        font-weight: normal;
+    }
+
+    .free-trail .card {
+        padding: 1rem 1.5rem;
+        margin: 1rem 0.5rem !important;
+        max-width: 280px !important;
+        min-width: 280px !important;
+    }
+
+    .form_data {
+        border: 1px solid #CCCCCC !important;
+        padding: 2rem !important;
+        border-radius: 30px;
+        background: #FFFFFF;
+    }
 }
 
 @media only screen and (max-width: 600px) {
     header #index {
         height: 650px;
     }
+
     header #free_trial {
-        height: 750px;
+        height: auto;
     }
+
     header #helpcenter {
         height: 450px;
     }
-    
+
     .navbar {
         height: 38px;
         top: 24px;
         width: 100%;
         padding: 1rem 2rem !important;
     }
+
+    .navbar-brand img {
+        height: 35px;
+        width: auto;
+    }
+
+    .trail {
+        padding: 5rem 2rem !important;
+    }
+
     .hero_title {
         display: flex;
         transform: translateY(-60px) !important;
@@ -2121,7 +2387,7 @@ footer p {
     #customize {
         order: 3;
         padding-top: 2rem !important;
-        padding-bottom: 6rem !important  ;
+        padding-bottom: 6rem !important;
     }
 
     /* 600 carousel */
@@ -2358,6 +2624,7 @@ footer p {
         padding: 0.5rem 0.5rem;
         background-color: transparent !important;
     }
+
     .help {
         padding: 2rem 3rem !important;
     }
@@ -2390,6 +2657,7 @@ footer p {
         font-weight: 300;
         line-height: 21px;
     }
+
     .divblur {
         height: 120px;
         width: 120px;
@@ -2400,10 +2668,11 @@ footer p {
         border-radius: 90%;
         transform: rotate(45deg);
         z-index: -10;
-        background-color: #dcb4fd ;
-        background-image: linear-gradient(315deg, #dcb4fd  50%, #9c3bf7 90%);
+        background-color: #dcb4fd;
+        background-image: linear-gradient(315deg, #dcb4fd 50%, #9c3bf7 90%);
         filter: blur(50px);
-    }  
+    }
+
     .divblur1 {
         height: 120px;
         width: 120px;
@@ -2414,55 +2683,58 @@ footer p {
         z-index: -10;
         border-radius: 90%;
         transform: rotate(45deg);
-        background-color: #dcb4fd ;
+        background-color: #dcb4fd;
         background-image: linear-gradient(315deg, #dcb4fd 65%, #9c3bf7 90%);
         filter: blur(50px);
     }
-    .help_divblur{
-        height: 120px;
-        width: 120px;
+
+    .help_divblur {
+        height: 140px;
+        width: 140px;
         opacity: 0.7;
         position: absolute;
-        margin-top: -100px;
-        left: -70px;
-       
+        margin-top: -30px;
+        left: 150px;
         z-index: -10;
         border-radius: 90%;
         transform: rotate(45deg);
-        background-color: #dcb4fd ;
+        background-color: #dcb4fd;
         background-image: linear-gradient(315deg, #dcb4fd 65%, #9c3bf7 90%);
-     filter: blur(50px);
+        filter: blur(50px);
     }
-    .help_divblur1{
-        height: 120px;
-        width: 120px;
+
+    .help_divblur1 {
+        height: 140px;
+        width: 140px;
         opacity: 0.6;
         position: absolute;
         margin-top: -50px;
-        left: -70px;
+        left: 80px;
         z-index: -10;
         border-radius: 90%;
         transform: rotate(45deg);
-        background-color: #dcb4fd ;
+        background-color: #dcb4fd;
         background-image: linear-gradient(315deg, #72bff1 65%, #b681e7 90%);
-     filter: blur(50px);
+        filter: blur(50px);
     }
-    .help_divblur2{
+
+    .help_divblur2 {
         height: 120px;
         width: 120px;
         opacity: 0.7;
         position: absolute;
         margin-top: 660px;
-        right: 0px; 
+        right: 0px;
         transform: translateX(-50px);
         z-index: -10;
         border-radius: 90%;
         transform: rotate(0deg);
-        background-color: #dcb4fd ;
+        background-color: #dcb4fd;
         background-image: linear-gradient(315deg, #dcb4fd 65%, #9c3bf7 90%);
-     filter: blur(50px);
+        filter: blur(50px);
     }
-    .help_divblur3{
+
+    .help_divblur3 {
         height: 120px;
         width: 120px;
         opacity: 0.6;
@@ -2473,9 +2745,15 @@ footer p {
         z-index: -10;
         border-radius: 90%;
         transform: rotate(0deg);
-        background-color: #dcb4fd ;
+        background-color: #dcb4fd;
         background-image: linear-gradient(315deg, #72bff1 65%, #b681e7 90%);
-     filter: blur(50px);
+        filter: blur(50px);
+    }
+    .form_data {
+        border: 1px solid #CCCCCC !important;
+        padding:1rem !important;
+        border-radius: 30px;
+        background: #FFFFFF;
     }
 }
 
@@ -2483,9 +2761,11 @@ footer p {
     header #index {
         height: 650px;
     }
+
     header #free_trial {
-        height: 750px;
+        height: auto;
     }
+
     header #helpcenter {
         height: 450px;
     }
@@ -2495,6 +2775,15 @@ footer p {
         top: 24px;
         width: 100%;
         padding: 1rem 2rem !important;
+    }
+
+    .navbar-brand img {
+        height: 35px;
+        width: auto;
+    }
+
+    .trail {
+        padding: 5rem 2rem !important;
     }
 
     .hero_title {
@@ -2589,10 +2878,12 @@ footer p {
         line-height: 44px;
         color: #0A0231;
     }
+
     .product_manage .col-md-5 {
         padding-left: 1rem;
         padding-right: 1rem;
     }
+
     .prmanageIcon {
         height: 56px;
         width: 56px;
@@ -2711,7 +3002,7 @@ footer p {
     #customize {
         order: 3;
         padding-top: 2rem;
-        padding-bottom: 6rem !important  ;
+        padding-bottom: 6rem !important;
     }
 
     .product_manager {
@@ -2874,9 +3165,11 @@ footer p {
         /* margin: 1rem    ; */
         padding: 2rem 1rem !important;
     }
+
     .query_box .col-md-9 {
         max-width: 100% !important;
     }
+
     .query_box h1 {
         font-size: 28px;
         text-align: center;
@@ -2976,6 +3269,7 @@ footer p {
         font-weight: 300;
         line-height: 21px;
     }
+
     .divblur {
         height: 120px;
         width: 120px;
@@ -2986,10 +3280,11 @@ footer p {
         border-radius: 90%;
         transform: rotate(45deg);
         z-index: -10;
-        background-color: #dcb4fd ;
-        background-image: linear-gradient(315deg, #dcb4fd  50%, #9c3bf7 90%);
+        background-color: #dcb4fd;
+        background-image: linear-gradient(315deg, #dcb4fd 50%, #9c3bf7 90%);
         filter: blur(50px);
-    }  
+    }
+
     .divblur1 {
         height: 120px;
         width: 120px;
@@ -3000,55 +3295,58 @@ footer p {
         z-index: -10;
         border-radius: 90%;
         transform: rotate(45deg);
-        background-color: #dcb4fd ;
+        background-color: #dcb4fd;
         background-image: linear-gradient(315deg, #dcb4fd 65%, #9c3bf7 90%);
         filter: blur(50px);
     }
-    .help_divblur{
-        height: 120px;
-        width: 120px;
+
+    .help_divblur {
+        height: 140px;
+        width: 140px;
         opacity: 0.7;
         position: absolute;
-        margin-top: -100px;
-        left: -50px;
-       
-         z-index: -10;
+        margin-top: -30px;
+        left: 150px;
+        z-index: -10;
         border-radius: 90%;
         transform: rotate(45deg);
-        background-color: #dcb4fd ;
+        background-color: #dcb4fd;
         background-image: linear-gradient(315deg, #dcb4fd 65%, #9c3bf7 90%);
-     filter: blur(50px);
+        filter: blur(50px);
     }
-    .help_divblur1{
-        height: 120px;
-        width: 120px;
+
+    .help_divblur1 {
+        height: 140px;
+        width: 140px;
         opacity: 0.6;
         position: absolute;
         margin-top: -50px;
-        left: -50px;
-         z-index: -10;
+        left: 80px;
+        z-index: -10;
         border-radius: 90%;
         transform: rotate(45deg);
-        background-color: #dcb4fd ;
+        background-color: #dcb4fd;
         background-image: linear-gradient(315deg, #72bff1 65%, #b681e7 90%);
-     filter: blur(50px);
+        filter: blur(50px);
     }
-    .help_divblur2{
+
+    .help_divblur2 {
         height: 120px;
         width: 120px;
         opacity: 0.7;
         position: absolute;
         margin-top: 660px;
-        right: 0px; 
+        right: 0px;
         transform: translateX(-50px);
-         z-index: -10;
+        z-index: -10;
         border-radius: 90%;
         transform: rotate(0deg);
-        background-color: #dcb4fd ;
+        background-color: #dcb4fd;
         background-image: linear-gradient(315deg, #dcb4fd 65%, #9c3bf7 90%);
-     filter: blur(50px);
+        filter: blur(50px);
     }
-    .help_divblur3{
+
+    .help_divblur3 {
         height: 120px;
         width: 120px;
         opacity: 0.6;
@@ -3056,13 +3354,17 @@ footer p {
         margin-top: 590px;
         right: 0px;
         margin-right: 0;
-         z-index: -10;
+        z-index: -10;
         border-radius: 90%;
         transform: rotate(0deg);
-        background-color: #dcb4fd ;
+        background-color: #dcb4fd;
         background-image: linear-gradient(315deg, #72bff1 65%, #b681e7 90%);
-     filter: blur(50px);
+        filter: blur(50px);
     }
-   
-    
+    .form_data {
+        border: 1px solid #CCCCCC !important;
+        padding:1rem !important;
+        border-radius: 30px;
+        background: #FFFFFF;
+    }
 }

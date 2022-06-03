@@ -14,13 +14,15 @@ $(document).ready(function () {
         /* $('.hero_title').addClass('d-none');
         $('.hero_title').removeClass('d-flex') */
         $('.hero_title').toggleClass('d-flex')
-        $('.hero_title').toggleClass("d-none");
+        $('.hero_title').toggleClass("invisible");
+        $('.free').toggleClass("d-none");
     });
     var elem = document.querySelector('.js-switch');
     var init = new Switchery(elem);
-
     
-
+    $('#myModal').on('shown.bs.modal', function () {
+        $('#myInput').trigger('focus')
+      })
    
 });
 
