@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,14 +10,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <title>UI Design</title>
 </head>
+
 <body>
     <header>
-        <div id="free_trial">
+        <div id="index">
             <nav class="navbar navbar-expand-lg">
                 <a class="navbar-brand" href="index.html"><img src="./assets/images/logo.svg" /></a>
-                <button class="btn btn-info d-md-none free" >
+                <button class="btn btn-info d-md-none free">
                     Free Trail
                 </button>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -70,99 +73,130 @@
                     </ul>
                 </div>
             </nav>
-            <div class="d-flex flex-column justify-content-center align-items-center trail">
-            <div class="m-0 p-0 d-flex hero_title mt-sm-0 flex-column ">
+            <div class="m-0 p-0 d-flex align-items-center hero_title  flex-column h-100">
                 <div>
-                    <p class="text-center text-white ">
-                        Free Trial
+                    <p class="text-center text-white">
+                        Project Management
                     </p>
                 </div>
                 <div>
-                    <h1 class="text-center text-white  mt-0">
-                        How Can We Help?
+                    <h1 class="text-center text-white mt-0 px-5">
+                        By organizing the projects of each team, you can Visualize the progress of who is doing what and
+                        when.
                     </h1>
                 </div>
-                
+
                 <div>
-                    <p class="text-center text-white ">
-                        Please feel free to contact us with any questions you may have.We will check <br> the contents of your inquiry and reply to you as soon as possible.
-                    </p>
-                </div> 
+                    <a class="btn btn-outline-info  py-3 px-4 font-weight-bold" href="contact.html">
+                        Contact
+                    </a>
+                    <a class="btn btn-info py-3 px-4 font-weight-bold">
+                        Start Free Trial
+                    </a>
+                </div>
 
             </div>
-          
-        </div>
         </div>
     </header>
-    <!-- <div class="help_divblur">
+
+    <div class="project p-0 text-center">
+        <img src="./assets/images/promanage.png" class="img-fluid px-lg-0 px-md-5 px-sm-3 px-3" />
     </div>
-    <div class="help_divblur1">
+    <div class="row m-0 project_management ">
+        <div class="col-md-5 pl-0">
+            <h1 class="prmanage_title text-left">
+                Project Management
+            </h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius pharetra mi. Ut tristique
+                posuere. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius pharetra mi. Ut
+                tristique posuere.</p>
+        </div>
+        <div class="col-md-7 p-0">
+            <img src="./assets/images/project.png" class="img-fluid" />
+        </div>
+
     </div>
-    <div class="help_divblur2">
+
+    <div class="divblur">
     </div>
-    <div class="help_divblur3">
-    </div> -->
-    <div class="row m-0 faq">
-     <form class="col-md-10 col-sm-12   ml-auto mr-auto form_data  ">
-         <div class="text-center">
-             <h1>
-                 Premium plan
-                </h1>
-                <p>
-                     Start for free for 30 days. No payment information required 
-                </p>
-                <h5>
-                    Plan : Standard Plan 
-                </h5>
+    <div class="divblur1">
+    </div>
+    <div class="carosel">
+        <div class="row m-0 justify-content-center">
+            <div class="col-9">
+
+                <ul class="nav nav-tabs d-flex justify-content-between border-bottom-0" id="myTab" role="tablist">
+                    <li>
+                        <a class="active text-white p-2 text-decoration-none" id="task-tab" data-toggle="tab" href="#task" role="tab" aria-controls="task"
+                        aria-selected="true">Task management</a>
+                    </li>
+                    <li>
+                        <a class="text-white p-2 text-decoration-none " id="vprocess-tab" data-toggle="tab" href="#vprocess" role="tab"
+                        aria-controls="vprocess" aria-selected="false">Visualize progress</a>
+                    </li>
+                    <li>
+                        <a class="text-white p-2 text-decoration-none " id="comment-tab" data-toggle="tab" href="#comment" role="tab"
+                        aria-controls="comment" aria-selected="false">Contact</a>
+                    </li>
+                    <li>
+                        <a class="text-white p-2 text-decoration-none " id="Timeline-tab" data-toggle="tab" href="#Timeline" role="tab"
+                            aria-controls="Timeline" aria-selected="false">Contact</a>
+                    </li>
+                </ul>
             </div>
-            <div class="p-3">
-                <div class="form-group row m-0">
-                    <div class="col-10 pl-0"> 
-                        <label for="id">ID*</label>
-                        <input type="email" class="form-control" id="id" aria-describedby="idhelp"  required>
-                        <small id="idhelp" class="form-text text-muted">The ID Of An Organizational Unit, Such As A Company Name Or Organization Name</small>
+        </div>
+        <div class="row m-0 justify-content-center pt-4">
+            <div class="tab-content" id="myTabContent">
+                <div class="tab-pane fade text-white show active" id="task" role="tabpanel" aria-labelledby="task-tab">
+                    <p>
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius pharetra mi. Ut tristique
+                        posuere.
+                    </p>
+                </div>
+                <div class="tab-pane fade text-white" id="vprocess" role="tabpanel" aria-labelledby="profile-tab">
+                   <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius pharetra mi. Ut tristique
+                        posuere.</p>
+                </div>
+                <div class="tab-pane fade text-white" id="comment" role="tabpanel" aria-labelledby="comment-tab">
+                   <p>   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius pharetra mi. Ut tristique
+                        posuere.</p>
+                </div>
+                <div class="tab-pane fade text-white" id="Timeline" role="tabpanel" aria-labelledby="Timeline-tab">
+                   <p>   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius pharetra mi. Ut tristique
+                        posuere.</p>
+                </div>
+            </div>
+        </div>
+        <div class="row m-0">
+            <div id="project_carousel" class="carousel slide w-100" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#project_carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#project_carousel" data-slide-to="1"></li>
+                    <li data-target="#project_carousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner py-3">
+                    <div class="carousel-item  active">
+                        <img class="img-fluid pt-0 " src="./assets/images/image 22.png" alt="First slide">
                     </div>
-                    <div class="col-2 d-flex align-items-center  pl-0">
-                        .astrac.io
+                    <div class="carousel-item ">
+                        <img class="img-fluid pt-0 " src="./assets/images/image 22.png" alt="First slide">
+                    </div>
+                    <div class="carousel-item ">
+                        <img class="img-fluid pt-0 " src="./assets/images/image 22.png" alt="First slide">
                     </div>
                 </div>
-                <div class="form-group">
-                    <label for="company_name">Company Name*</label>
-                    <input type="text" class="form-control" id="company_name"   placeholder="" required>
-                  </div>
-                  <div class="form-group">
-                    <label for="first_name">First Name*</label>
-                    <input type="text" class="form-control" id="first_name"   placeholder="" required>
-                  </div>
-                  <div class="form-group">
-                    <label for="last_name">Last Name*</label>
-                    <input type="text" class="form-control" id="last_name"   placeholder="" required>
-                  </div>
-                  <div class="form-group">
-                    <label for="email">Email address*</label>
-                    <input type="email" class="form-control" id="email" required>
-                  </div>
-                  <div class="form-group">
-                    <label for="password">Password*</label>
-                    <input type="password" class="form-control" id="password" aria-describedby="password_help"  required>
-                    <small id="password_help" class="form-text text-muted">At least 8 single-byte characters, including numbers and symbols</small>
-                  </div>
-                  <div class=" form-group custom-control  custom-checkbox">  
-                    <input type="checkbox" class="custom-control-input" id="customCheck1" checked>  
-                    <label class="custom-control-label" for="customCheck1">Receive notifications from Astrac by email Product updates, newsletters and promotions...etc</label>  
-                </div> 
-                <small class="text-muted">By signing up for a free trial, you agree to Astrac Terms of Service and Privacy Policy.</small>
-                <div class="text-center mt-5">
-                    <button  type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModalLong">
-                        Request Now
-                    </button>
-                    
-                </div>
+                <a class="carousel-control-prev" href="#project_carousel" role="button" data-slide="prev">
+                    <img aria-hidden="true" src="./assets/images/Group 4421.svg"></img>
+                </a>
+                <a class="carousel-control-next" href="#project_carousel" role="button" data-slide="next">
+                    <img aria-hidden="true" src="./assets/images/Group 4420.png"></img>
+                </a>
+
             </div>
-     </form>
+        </div>
         <div class="col-md-12 query_box  ml-auto mr-auto">
             <div class="row m-0">
-                <div class="col-lg-9 col-md-12 col-sm-12 col-12 text-white">
+                <div class="col-lg-9 col-md-12 col-sm-12 col-12 text-white px-3">
                     <h1>
                         All Of Your Work In Astrac
                     </h1>
@@ -179,26 +213,7 @@
             </div>
         </div>
     </div>
-    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header border-bottom-0">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-                <div class="modal-body text-center">
-                    <img src="./assets/images/modal.png" class="img-fluid px-5"/>
-                    <div class="my-auto">
-                        <h5>Thank You!</h5>
-                        <p class="text-cente">Thank you very much for applying for the free trial. Our sales team will be in touch with you shortly to inform you of the trial environment. Please wait for a while.</p>
-                    </div>
-             </div>
-          </div>
-        </div>
-      </div>
-    <footer class="row mx-lg-1  mx-0">
-        <!-- <div class="row  mt-5"> -->
+    <footer class="row mx-lg-1  mx-0 ">
         <div class="col-md-4 col-sm-12 col-12">
             <img src="./assets/images/logo1.svg" alt="logo" class="img-fluid text-center" />
             <p>
@@ -269,14 +284,12 @@
                 <a href="#"><img src="./assets/images/Frame (6).svg" /></a>
             </div>
         </div>
-        <!-- </div> -->
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
         integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./assets/vendor/bootstrap/js/bootstrap.min.js"></script>
     <script src="./assets/js/index.js"></script>
-
 </body>
 
 </html>

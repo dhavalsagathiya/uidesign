@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -9,14 +10,16 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+
     <title>UI Design</title>
 </head>
+
 <body>
     <header>
-        <div id="free_trial">
+        <div id="index">
             <nav class="navbar navbar-expand-lg">
                 <a class="navbar-brand" href="index.html"><img src="./assets/images/logo.svg" /></a>
-                <button class="btn btn-info d-md-none free" >
+                <button class="btn btn-info d-md-none free">
                     Free Trail
                 </button>
                 <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
@@ -52,7 +55,7 @@
                     </ul>
                     <ul class="navbar-nav ml-auto text-lg-left text-md-center text-center">
                         <li
-                            class="nav-item d-flex align-items-center mr-auto ml-auto order-lg-1 order-md-2 order-xs-2 order-2 mt-lg-0  mt-md-3 mt-sm-3 mt-3">
+                            class="nav-item d-flex align-items-center mr-auto ml-auto order-lg-1 order-md-2 order-xs-2 order-lg-0 order-md-0 order-2 mt-lg-0  mt-md-3 mt-sm-3 mt-3">
                             <img src="./assets/images/earth.svg" alt="earth" class="img-fluid mx-3" id="browse">
                             <span class="d-lg-none d-md-block d-sm-block text-white">
                                 English
@@ -70,135 +73,115 @@
                     </ul>
                 </div>
             </nav>
-            <div class="d-flex flex-column justify-content-center align-items-center trail">
-            <div class="m-0 p-0 d-flex hero_title mt-sm-0 flex-column ">
+            <div class="m-0 p-0 d-flex align-items-center hero_title  flex-column h-100">
                 <div>
-                    <p class="text-center text-white ">
-                        Free Trial
+                    <p class="text-center text-white">
+                        Product
                     </p>
                 </div>
-                <div>
-                    <h1 class="text-center text-white  mt-0">
-                        How Can We Help?
+                <div class="p-0">
+                    <h1 class="text-center text-white mt-0 p-0">
+                        Many features to make your business communication...
                     </h1>
                 </div>
-                
+
                 <div>
-                    <p class="text-center text-white ">
-                        Please feel free to contact us with any questions you may have.We will check <br> the contents of your inquiry and reply to you as soon as possible.
-                    </p>
-                </div> 
+                    <a class="btn btn-outline-info  py-3 px-4 font-weight-bold" href="contact.html">
+                        Contact
+                    </a>
+                    <a class="btn btn-info py-3 px-4 font-weight-bold">
+                        Start Free Trial
+                    </a>
+                </div>
 
             </div>
-          
-        </div>
         </div>
     </header>
-    <!-- <div class="help_divblur">
+    <div class="project p-0 text-center">
+        <img src="./assets/images/promanage.png" class="img-fluid px-lg-0 px-md-5 px-sm-3 px-3" />
+        
     </div>
-    <div class="help_divblur1">
+    <div class="row m-0  products text-center d-lg-block d-md-none d-sm-none d-none">
+        <h5 class="ml-auto mr-auto">What is Astrac?</h5>
+        <p class="px-5">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius pharetra mi. Ut tristique
+            posuere.. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius pharetra mi. Ut
+            tristique posuere.
+        </p>
     </div>
-    <div class="help_divblur2">
+    <div class="row m-0 products">
+        <div class="col-md-5 pl-0 order-lg-0 order-md-0  order-1">
+            <h1 class="prmanage_title text-left">
+                Smooth Communication
+            </h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius pharetra mi. Ut tristique posuere.</p>
+        </div>
+        <div class="col-md-7 p-0 order-lg-0 order-md-0 order-2">
+            <img src="./assets/images/project.png" class="img-fluid" />
+        </div>
     </div>
-    <div class="help_divblur3">
-    </div> -->
-    <div class="row m-0 faq">
-     <form class="col-md-10 col-sm-12   ml-auto mr-auto form_data  ">
-         <div class="text-center">
-             <h1>
-                 Premium plan
-                </h1>
-                <p>
-                     Start for free for 30 days. No payment information required 
-                </p>
-                <h5>
-                    Plan : Standard Plan 
-                </h5>
-            </div>
-            <div class="p-3">
-                <div class="form-group row m-0">
-                    <div class="col-10 pl-0"> 
-                        <label for="id">ID*</label>
-                        <input type="email" class="form-control" id="id" aria-describedby="idhelp"  required>
-                        <small id="idhelp" class="form-text text-muted">The ID Of An Organizational Unit, Such As A Company Name Or Organization Name</small>
-                    </div>
-                    <div class="col-2 d-flex align-items-center  pl-0">
-                        .astrac.io
-                    </div>
-                </div>
-                <div class="form-group">
-                    <label for="company_name">Company Name*</label>
-                    <input type="text" class="form-control" id="company_name"   placeholder="" required>
-                  </div>
-                  <div class="form-group">
-                    <label for="first_name">First Name*</label>
-                    <input type="text" class="form-control" id="first_name"   placeholder="" required>
-                  </div>
-                  <div class="form-group">
-                    <label for="last_name">Last Name*</label>
-                    <input type="text" class="form-control" id="last_name"   placeholder="" required>
-                  </div>
-                  <div class="form-group">
-                    <label for="email">Email address*</label>
-                    <input type="email" class="form-control" id="email" required>
-                  </div>
-                  <div class="form-group">
-                    <label for="password">Password*</label>
-                    <input type="password" class="form-control" id="password" aria-describedby="password_help"  required>
-                    <small id="password_help" class="form-text text-muted">At least 8 single-byte characters, including numbers and symbols</small>
-                  </div>
-                  <div class=" form-group custom-control  custom-checkbox">  
-                    <input type="checkbox" class="custom-control-input" id="customCheck1" checked>  
-                    <label class="custom-control-label" for="customCheck1">Receive notifications from Astrac by email Product updates, newsletters and promotions...etc</label>  
-                </div> 
-                <small class="text-muted">By signing up for a free trial, you agree to Astrac Terms of Service and Privacy Policy.</small>
-                <div class="text-center mt-5">
-                    <button  type="button" class="btn btn-info" data-toggle="modal" data-target="#exampleModalLong">
-                        Request Now
-                    </button>
-                    
-                </div>
-            </div>
-     </form>
+    <div class="row m-0 products">
+        <div class="col-md-7 p-0 order-lg-0 order-md-0 order-2">
+            <img src="./assets/images/project.png" class="img-fluid" />
+        </div>
+        <div class="col-md-5 order-lg-0 order-md-0 order-1">
+            <h1 class="prmanage_title text-left">
+                Clarification of Tasks Progress Management
+            </h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius pharetra mi. Ut tristique posuere.</p>
+        </div>
+    </div>
+    <div class="row m-0 products">
+        <div class="col-md-5 pl-0">
+            <h1 class="prmanage_title text-left">
+                Flexible Customizability
+            </h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius pharetra mi. Ut tristique posuere.</p>
+        </div>
+        <div class="col-md-7 p-0">
+            <img src="./assets/images/project.png" class="img-fluid" />
+        </div>
+    </div>
+    <div class="row m-0 products">
+
+         <div class="col-md-7 p-0 order-lg-0 order-md-0 order-2">
+            <img src="./assets/images/project.png" class="img-fluid" />
+        </div>
+        <div class="col-md-5 order-lg-0 order-md-0 order-1">
+            <h1 class="prmanage_title text-left">
+                Works On any Device
+            </h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius pharetra mi. Ut tristique posuere.</p>
+        </div>
+    </div>
+    <div class="row m-0 products">
+        <div class="col-md-5 pl-0">
+            <h1 class="prmanage_title text-left">
+                Security
+            </h1>
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius pharetra mi. Ut tristique posuere.</p>
+        </div>
+        <div class="col-md-7 p-0">
+            <img src="./assets/images/project.png" class="img-fluid" />
+        </div>
         <div class="col-md-12 query_box  ml-auto mr-auto">
             <div class="row m-0">
                 <div class="col-lg-9 col-md-12 col-sm-12 col-12 text-white">
-                    <h1>
+                    <h1 class="text-white">
                         All Of Your Work In Astrac
                     </h1>
-                    <h5>
+                    <h5 class="text-white">
                         Contact Us To Start Free Trial Or If You Have Any Question
                     </h5>
                 </div>
                 <div class="col-lg-3 col-md-12 col-sm-12 col-12 mt-auto mb-auto text-center">
                     <button class="btn btn-info">Contact</button>
-                    <button class="btn btn-outline-info ml-2  border-0"
-                        style="background: linear-gradient(135deg, #FFFFFF 0%, #E1DBFF 100%); color:#856BFA !important">Free
-                        Trail</button>
+                    <button class="btn btn-outline-info ml-2  border-0" style="background: linear-gradient(135deg, #FFFFFF 0%, #E1DBFF 100%); color:#856BFA !important">Free Trail</button>
                 </div>
             </div>
         </div>
     </div>
-    <div class="modal fade" id="exampleModalLong" tabindex="-1" role="dialog" aria-labelledby="exampleModalLongTitle" aria-hidden="true">
-        <div class="modal-dialog" role="document">
-          <div class="modal-content">
-            <div class="modal-header border-bottom-0">
-              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                <span aria-hidden="true">&times;</span>
-              </button>
-            </div>
-                <div class="modal-body text-center">
-                    <img src="./assets/images/modal.png" class="img-fluid px-5"/>
-                    <div class="my-auto">
-                        <h5>Thank You!</h5>
-                        <p class="text-cente">Thank you very much for applying for the free trial. Our sales team will be in touch with you shortly to inform you of the trial environment. Please wait for a while.</p>
-                    </div>
-             </div>
-          </div>
-        </div>
-      </div>
-    <footer class="row mx-lg-1  mx-0">
-        <!-- <div class="row  mt-5"> -->
+    <footer class="row mx-lg-1  mx-0 ">
         <div class="col-md-4 col-sm-12 col-12">
             <img src="./assets/images/logo1.svg" alt="logo" class="img-fluid text-center" />
             <p>
@@ -269,14 +252,12 @@
                 <a href="#"><img src="./assets/images/Frame (6).svg" /></a>
             </div>
         </div>
-        <!-- </div> -->
     </footer>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"
         integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./assets/vendor/bootstrap/js/bootstrap.min.js"></script>
     <script src="./assets/js/index.js"></script>
-
 </body>
 
 </html>
