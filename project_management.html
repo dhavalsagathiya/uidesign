@@ -11,7 +11,7 @@
         integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
 
-    <title>UI Design</title>
+    <link rel="stylesheet" href="./assets/vendor/switchery/switchery.css"/> <title>UI Design</title>
 </head>
 
 <body>
@@ -122,25 +122,25 @@
     <div class="divblur1">
     </div>
     <div class="carosel">
-        <div class="row m-0 justify-content-center">
-            <div class="col-9">
-
+        <div class="row m-0 justify-content-center pt-md-3 pt-sm-3">
+            <div class="col-9" id="navpan"> 
                 <ul class="nav nav-tabs d-flex justify-content-between border-bottom-0" id="myTab" role="tablist">
                     <li>
-                        <a class="active text-white p-2 text-decoration-none" id="task-tab" data-toggle="tab" href="#task" role="tab" aria-controls="task"
-                        aria-selected="true">Task management</a>
+                        <a class="active text-white p-2 text-decoration-none" id="task-tab" data-toggle="tab"
+                            href="#task" role="tab" aria-controls="task" aria-selected="true">Task management</a>
                     </li>
                     <li>
-                        <a class="text-white p-2 text-decoration-none " id="vprocess-tab" data-toggle="tab" href="#vprocess" role="tab"
-                        aria-controls="vprocess" aria-selected="false">Visualize progress</a>
+                        <a class="text-white p-2 text-decoration-none " id="vprocess-tab" data-toggle="tab"
+                            href="#vprocess" role="tab" aria-controls="vprocess" aria-selected="false">Visualize
+                            progress</a>
                     </li>
                     <li>
-                        <a class="text-white p-2 text-decoration-none " id="comment-tab" data-toggle="tab" href="#comment" role="tab"
-                        aria-controls="comment" aria-selected="false">Contact</a>
+                        <a class="text-white p-2 text-decoration-none " id="comment-tab" data-toggle="tab"
+                            href="#comment" role="tab" aria-controls="comment" aria-selected="false">Contact</a>
                     </li>
                     <li>
-                        <a class="text-white p-2 text-decoration-none " id="Timeline-tab" data-toggle="tab" href="#Timeline" role="tab"
-                            aria-controls="Timeline" aria-selected="false">Contact</a>
+                        <a class="text-white p-2 text-decoration-none " id="Timeline-tab" data-toggle="tab"
+                            href="#Timeline" role="tab" aria-controls="Timeline" aria-selected="false">Contact</a>
                     </li>
                 </ul>
             </div>
@@ -149,20 +149,24 @@
             <div class="tab-content" id="myTabContent">
                 <div class="tab-pane fade text-white show active" id="task" role="tabpanel" aria-labelledby="task-tab">
                     <p>
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius pharetra mi. Ut tristique
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius pharetra mi. Ut
+                        tristique
                         posuere.
                     </p>
                 </div>
                 <div class="tab-pane fade text-white" id="vprocess" role="tabpanel" aria-labelledby="profile-tab">
-                   <p>  Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius pharetra mi. Ut tristique
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius pharetra mi. Ut
+                        tristique
                         posuere.</p>
                 </div>
                 <div class="tab-pane fade text-white" id="comment" role="tabpanel" aria-labelledby="comment-tab">
-                   <p>   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius pharetra mi. Ut tristique
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius pharetra mi. Ut
+                        tristique
                         posuere.</p>
                 </div>
                 <div class="tab-pane fade text-white" id="Timeline" role="tabpanel" aria-labelledby="Timeline-tab">
-                   <p>   Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius pharetra mi. Ut tristique
+                    <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum varius pharetra mi. Ut
+                        tristique
                         posuere.</p>
                 </div>
             </div>
@@ -289,6 +293,7 @@
         integrity="sha512-894YE6QWD5I59HgZOGReFYm4dnWc1Qt5NtvYSaNcOP+u1T9qYdvdihz0PPSiiqn/+/3e7Jo4EaG7TubfWGUrMQ=="
         crossorigin="anonymous" referrerpolicy="no-referrer"></script>
     <script src="./assets/vendor/bootstrap/js/bootstrap.min.js"></script>
+   <script src="./assets/vendor/switchery/switchery.js"></script>
     <script src="./assets/js/index.js"></script>
 </body>
 

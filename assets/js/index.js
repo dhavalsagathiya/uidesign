@@ -1,6 +1,21 @@
-$(document).ready(function () {
-
-    $('.card-header button').click(function () {
+$(document).ready(function () {  
+$(".switch_span2").click(function() {
+    $('.switch_bg').toggleClass("switch_tgl");
+    $('.switch_tgl').removeClass('switch_bg');
+}); 
+$(".switch_span1").click(function() {
+    $('.switch_tgl').toggleClass("switch_bg");
+    $('.switch_bg').removeClass('switch_tgl');
+});
+// $("#pricing2").click(function() {
+//     $('.switch_bg').toggleClass("switch_tgl");
+//     $('.switch_tgl').removeClass('switch_bg');
+// }); 
+// $("#pricing1").click(function() {
+//     $('.switch_tgl').toggleClass("switch_bg");
+//     $('.switch_bg').removeClass('switch_tgl');
+// });
+$('.card-header button').click(function () {
         $('.card').addClass('otherClasses');
         $('.btn').addClass('other');
         $(this).closest('.otherClasses').removeClass("otherClasses");
@@ -17,9 +32,6 @@ $(document).ready(function () {
         $('.hero_title').toggleClass("invisible");
         $('.free').toggleClass("d-none");
     });
-    var elem = document.querySelector('.js-switch');
-    var init = new Switchery(elem);
-    
     $('#myModal').on('shown.bs.modal', function () {
         $('#myInput').trigger('focus')
       })
